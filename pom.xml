@@ -7,7 +7,8 @@
   <parent>
     <groupId>org.jitsi</groupId>
     <artifactId>jitsi-universe</artifactId>
-    <version>1.0-20160405.235512-16</version>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>../jitsi-universe/pom.xml</relativePath>
   </parent>
 
   <artifactId>jicoco</artifactId>
@@ -52,22 +53,18 @@
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-android-osgi</artifactId>
-      <version>1.0-20150723.002702-1</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-protocol-jabber</artifactId>
-      <version>2.9-20151214.211356-5</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-ui-service</artifactId>
-      <version>2.9-20150723.181654-1</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>jitsi-util</artifactId>
-      <version>2.9-20150723.181654-1</version>
     </dependency>
     <!-- test -->
     <dependency>
